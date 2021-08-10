@@ -1,0 +1,11 @@
+[Unit]
+Description=Mount USB with '5E78-5F37' UUID in diag-tools folder
+
+[Mount]
+What=/dev/disk/by-uuid/5E78-5F37
+Where=/diagTools
+Type=vfat
+Option=rw,nodev
+
+[Install]
+WantedBy=grapichal.target

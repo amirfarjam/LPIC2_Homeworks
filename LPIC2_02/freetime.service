@@ -1,0 +1,9 @@
+[Unit]
+Description=Free Memory and Time Display
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/freetime.sh
+
+[Install]
+WantedBy=graphical.target
